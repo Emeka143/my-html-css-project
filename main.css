@@ -1,0 +1,88 @@
+a  {
+    text-decoration: none;
+    color: black;
+}
+
+/*#register  {
+    background-color:  rgb(84, 100, 148);
+}*/
+
+
+
+.row {
+    display: flex;
+}
+
+.span6 {
+    width: 50%;
+    
+}
+
+.btn{
+    border: 1px solid #535557;
+    padding: 20px;
+    text-align: center;
+    border-radius: 2%;   
+}
+
+.btn-primary{
+    background-color:  rgb(80, 81, 84);
+    color: white;
+}
+
+/*header rules*/
+.head{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    width: 25%;
+    /*display: inline-block;*/
+}
+.login{
+    width: 100%;
+    margin: 1%;
+   /* display: block;*/
+}
+.login a{
+    display: block;
+}
+.menu{
+    width: 50%;
+    /*display: inline-block;*/
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0% 15px;
+}
+
+/****Intro section****/
+#intro{
+    background-image: url('../html/assets/images/images/intro.png.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+}
+
+.search .input{
+    background-color: #00ebff;
+    border: 0;
+    font-size: 16px;
+    color: #1e272e;
+    padding: 15px;
+    height: 40px;
+    width: 40px;
+    transition: width 0.8s ease;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
